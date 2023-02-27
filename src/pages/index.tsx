@@ -89,8 +89,8 @@ export default function Home() {
         console.log(err);
       });
   }, [ref]);
-  
-  
+
+
 
   return (
     <AppContext.Provider value={{
@@ -120,7 +120,7 @@ export default function Home() {
         </div>  
       </section>    
      </AppContext.Provider>     
-    )
+  )
     
 }
 
